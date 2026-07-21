@@ -194,7 +194,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA6_228146_DU.pdf',
+        download: 'downloads/CFA6_228122_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -330,7 +330,7 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Sebastian Trujillo Afanador',
+          nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
