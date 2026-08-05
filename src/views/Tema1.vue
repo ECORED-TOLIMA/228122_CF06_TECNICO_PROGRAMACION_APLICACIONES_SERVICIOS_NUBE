@@ -203,24 +203,23 @@
           h4.text-center Aplicar políticas de acceso restringido
           p Busca limitar el acceso a la base de datos según roles y responsabilidades, garantizando que solo usuarios autorizados puedan consultar o modificar la información.
     p.mb-4(data-aos="fade-down") Basado en lo explicado en esta temática, la siguiente imagen presenta una visión general de la arquitectura de un sistema de gestión de bases de datos, mostrando la interacción entre usuarios o aplicaciones y el servidor de base de datos. En ella se comparan los enfoques relacional (RDBMS) y NoSQL, junto con elementos clave como usuarios, roles, puertos de conexión, seguridad y tipos de almacenamiento de la información:
-    .row.justify-content-center.mb-0(data-aos="flip-up")
-      .col.col-12
+    
+    .row.justify-content-center.figura-flujo-ajuste(data-aos="flip-up")
+      .col-lg-12.col-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
           span Arquitectura de base de datos
-      .row.justify-content-center
-        .col-12
-          figure.desktop
-            img(src='@/assets/curso/tema1/img20.svg', alt='Figura 1 que representa la arquitectura de un sistema gestor de bases de datos, donde un usuario o aplicación se conecta a un servidor de base de datos. Se diferencian dos tipos de almacenamiento: bases de datos relacionales organizadas en tablas con filas y columnas, y bases de datos NoSQL representadas mediante documentos, estructuras clave-valor y grafos. También se incluyen elementos de configuración como usuarios, puertos y seguridad.')
-      .col-12
-        figure.movil
-          img.mb-4(src='@/assets/curso/tema1/img21.svg', alt='Figura 1 que representa la arquitectura de un sistema gestor de bases de datos, donde un usuario o aplicación se conecta a un servidor de base de datos. Se diferencian dos tipos de almacenamiento: bases de datos relacionales organizadas en tablas con filas y columnas, y bases de datos NoSQL representadas mediante documentos, estructuras clave-valor y grafos. También se incluyen elementos de configuración como usuarios, puertos y seguridad.')
-        .col-auto.movil
-          a.anexo.mb-0(:href="obtenerLink('/downloads/Figura01.pdf')" target="_blank")
-            .anexo__icono
-              img(src="@/assets/bullets/icono-pdf.svg")
-            .anexo__texto
-              p Figura 1. Arquitectura de base de datos
+        .row.justify-content-center
+          .col-lg-12.col-12.mb-4 
+            figure
+              img(src='@/assets/curso/tema1/img20.svg', alt='Figura 1 que representa la arquitectura de un sistema gestor de bases de datos, donde un usuario o aplicación se conecta a un servidor de base de datos. Se diferencian dos tipos de almacenamiento: bases de datos relacionales organizadas en tablas con filas y columnas, y bases de datos NoSQL representadas mediante documentos, estructuras clave-valor y grafos. También se incluyen elementos de configuración como usuarios, puertos y seguridad.')
+          .col-auto.movil(data-aos="fade-left")
+            a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_Diagrama_casos_uso_sistema_biblioteca.pdf')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/bullets/icono-pdf.svg")
+              .anexo__texto
+                p #[b Anexo.] Diagrama de casos de uso - Sistema de biblioteca.
+
 </template>
 
 <script>

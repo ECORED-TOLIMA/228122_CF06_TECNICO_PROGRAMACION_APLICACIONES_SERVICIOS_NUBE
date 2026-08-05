@@ -347,24 +347,21 @@
         figure
           img(src='@/assets/curso/tema2/img19.png', alt='Imagen decorativa')
     p.mb-4(data-aos="fade-down") Como complemento, se incluye la siguiente imagen de una representación de la estructura del lenguaje SQL, mostrando su organización en distintos componentes y lenguajes especializados. En ella se identifican las funciones del DDL, DML y DCL, junto con los principales comandos, tipos de datos y restricciones, permitiendo comprender de forma integrada cómo se definen, manipulan y controlan los datos dentro de un sistema de bases de datos:
-    .row.justify-content-center.mb-0(data-aos="flip-up")
-      .col.col-12
+    .row.justify-content-center.figura-flujo-ajuste(data-aos="flip-up")
+      .col-lg-12.col-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 2.
           span Estructura y componentes del lenguaje SQL
-      .row.justify-content-center
-        .col-12
-          figure.desktop
-            img(src='@/assets/curso/tema2/img20.svg', alt='Figura 2 que contiene un mapa conceptual del lenguaje SQL que relaciona sus principales componentes: DDL para la definición de estructuras (CREATE, ALTER, DROP, TRUNCATE), DML para la manipulación de datos (INSERT, UPDATE, DELETE, SELECT) y DCL para el control de acceso (GRANT, REVOKE). Se incluyen además elementos como tipos de datos y restricciones de integridad, evidenciando la organización del lenguaje.')
-      .col-12
-        figure.movil
-          img.mb-4(src='@/assets/curso/tema2/img21.svg', alt='Figura 2 que contiene un mapa conceptual del lenguaje SQL que relaciona sus principales componentes: DDL para la definición de estructuras (CREATE, ALTER, DROP, TRUNCATE), DML para la manipulación de datos (INSERT, UPDATE, DELETE, SELECT) y DCL para el control de acceso (GRANT, REVOKE). Se incluyen además elementos como tipos de datos y restricciones de integridad, evidenciando la organización del lenguaje.')
-        .col-auto.movil
-          a.anexo.mb-0(:href="obtenerLink('/downloads/Figura02.pdf')" target="_blank")
-            .anexo__icono
-              img(src="@/assets/bullets/icono-pdf.svg")
-            .anexo__texto
-              p Figura 2. Estructura y componentes del lenguaje SQL
+        .row.justify-content-center
+          .col-lg-12.col-12.mb-4 
+            figure
+              img(src='@/assets/curso/tema2/img20.svg', alt='Figura 2 que contiene un mapa conceptual del lenguaje SQL que relaciona sus principales componentes: DDL para la definición de estructuras (CREATE, ALTER, DROP, TRUNCATE), DML para la manipulación de datos (INSERT, UPDATE, DELETE, SELECT) y DCL para el control de acceso (GRANT, REVOKE). Se incluyen además elementos como tipos de datos y restricciones de integridad, evidenciando la organización del lenguaje.')
+          .col-auto.movil(data-aos="fade-left")
+            a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_Estructura_componentes_lenguaje_SQL.pdf')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/bullets/icono-pdf.svg")
+              .anexo__texto
+                p #[b Anexo.] Estructura y componentes del lenguaje SQL.
     separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.4 Restricciones de integridad
